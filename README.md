@@ -16,3 +16,8 @@
 
 >> composer require pda/pheanstalk
 
+4. 进程 后台 监听启动[守护进程] ,防止阻塞
+
+>> (1) nohup  php think subscribe &
+
+>> (2) 命令代码 while(true) 后台一直运行 守护进程
